@@ -360,7 +360,7 @@ class ThemeData with Diagnosticable {
     pageTransitionsTheme ??= const PageTransitionsTheme();
     primaryIconTheme ??= primaryIsDark ? const IconThemeData(color: Colors.white) : const IconThemeData(color: Colors.black);
     accentIconTheme ??= accentIsDark ? const IconThemeData(color: Colors.white) : const IconThemeData(color: Colors.black);
-    iconTheme ??= isDark ? const IconThemeData(color: Colors.white) : const IconThemeData(color: Colors.black87);
+    iconTheme ??= isDark ? const IconThemeData(color: Colors.white) : const IconThemeData(color: Colors.black);
     platform ??= defaultTargetPlatform;
     typography ??= Typography.material2014(platform: platform);
     TextTheme defaultTextTheme = isDark ? typography.white : typography.black;
